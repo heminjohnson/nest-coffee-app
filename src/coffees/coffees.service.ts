@@ -7,7 +7,7 @@ import { Coffee } from './entities/coffee.entity';
 import { Flavor } from './entities/flavor.entity';
 import { PaginationQueryDto } from '../common/dto/pagination-query.dto';
 import { Event } from '../events/entities/event.entity';
-import { ConfigService } from '@nestjs/config'
+import { ConfigService } from '@nestjs/config';
 
 @Injectable()
 export class CoffeesService {
